@@ -1,0 +1,19 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Team profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomioh/10-oop.git"
+  },
+  "author": "Noyemi Ohanyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomioh/10-oop/issues"
+  },
+  "homepage": "https://github.com/nomioh/10-oop#readme"
+}
