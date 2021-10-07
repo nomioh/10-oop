@@ -4,7 +4,8 @@
   "description": "Team profile generator",
   "main": "index.js",
   "scripts": {
-    "test": "npm init"
+    "start": "node index.js",
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/nomioh/10-oop/issues"
   },
-  "homepage": "https://github.com/nomioh/10-oop#readme"
+  "homepage": "https://github.com/nomioh/10-oop#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.5",
+    "jest": "^27.2.4",
+    "path": "^0.12.7"
+  }
 }

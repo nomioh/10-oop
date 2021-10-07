@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Team</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="container-fluid bg-info">
+      <div class="row">
+        <div class="col-12 jumbotron mb-3 bg-info team-heading">
+          <h1 class="text-center text-white">Meet the Team</h1>
+          <p class="lead text-center text-white">
+            Hello, welcome to our team page. Get in touch or check out our work.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- cards  -->
+    <div class="container-body container container-fluid">
+      <div class="row justify-content-center">
+        <div class="team-area col-12 d-flex justify-content-center">
+          <div class="row">{{ team }}</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
