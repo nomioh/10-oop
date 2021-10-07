@@ -16,22 +16,22 @@ async function askquestions() {
     {
       type: "input",
       name: "name",
-      message: "What the employee's name?",
+      message: "What is the employee's name?",
     },
     {
       type: "input",
       name: "id",
-      message: "What the employee's id?",
+      message: "What is the employee's id?",
     },
     {
       type: "input",
       name: "email",
-      message: "What the employee's email address?",
+      message: "What is the employee's email address?",
     },
     {
       type: "list",
       name: "role",
-      message: "Select the employee's role?",
+      message: "Select the employee's role",
       choices: ["Manager", "Engineer", "Intern"],
     },
   ]);
@@ -44,7 +44,7 @@ async function askquestions() {
         {
           type: "input",
           name: "officeNumber",
-          message: "What the manager's office number?",
+          message: "What is the manager's office number?",
         },
       ]);
       employees.push(
@@ -57,7 +57,7 @@ async function askquestions() {
         {
           type: "input",
           name: "gitHubUserName",
-          message: "What the engineer's github username?",
+          message: "What is the engineer's github username?",
         },
       ]);
       employees.push(
